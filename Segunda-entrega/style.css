@@ -1,0 +1,176 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.navbar{
+    background-color: #2196F3;
+    padding: 10px 40px 10px 70px;
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    color: blanchedalmond;
+
+}
+
+.navbar .ul1{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.navbar .ul1 .logo{
+
+    flex: 1;
+    font-size: 30px;
+    font-weight: 700;
+    
+
+}
+
+.navbar .ul1 .items{
+
+    padding: 5px 100px;
+    display: inline-flex;
+
+}
+
+.navbar .ul1 .items a{
+text-decoration: none;
+font-size: 18px;
+padding: 0 12px;
+
+color: blanchedalmond;
+}
+
+.navbar .ul1 .items a:hover{
+color: gray;
+}
+
+.navbar .ul1 .search-icon{
+    height: 40px;
+    width: 240px;
+    display: flex;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.navbar .ul1 .search-icon input{
+    height: 100%;
+    width: 200px;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    color: #000;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    cursor: pointer;
+}
+
+.navbar .ul1 .search-icon .icon{
+
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #cccccc;
+    border-radius: 0 5px 5px 0;
+
+
+}
+
+.navbar .ul1 .search-icon .icon:hover{
+
+background: #e6e6e6;
+
+}
+
+
+.navbar .ul1 .search-icon .icon i{
+
+    color: #222222;
+    font-size: 18px;
+}
+
+
+
+
+body {
+   
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+     background-color: black;
+
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:auto;
+}
+
+.container .card{
+    width: 250px;
+    height: 405px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: black;
+    border: 0.5px solid #cccccc;
+}
+
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.container .card-img-top{
+    width: 250px;
+    height: 250px;
+    image-orientation: center;
+    
+}
+
+.container .card-title{
+    font-weight: 400;
+    color:whitesmoke
+    
+    
+}
+
+.container .card-text{
+ font-weight: 150;
+ text-decoration: none;
+ color: whitesmoke;   
+ 
+}
+
+h1 {
+    
+    font-size: 54px;
+    color: antiquewhite;
+    text-align: center;
+
+}
+
+
