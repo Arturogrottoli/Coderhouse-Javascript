@@ -1,0 +1,44 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+}
+
+/* Estilos del botón */
+.scroll-top-btn {
+    position: fixed;
+    bottom: 1vh;
+    right: 1vw;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: orange;
+    color: black;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.scroll-top-btn:hover {
+    background-color: black;
+    color: orange;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
